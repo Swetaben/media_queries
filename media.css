@@ -1,0 +1,45 @@
+div {
+  border: 1px solid black;
+
+  width: 800px;
+  padding: 5px;
+}
+h2 {
+  color: #cc4425;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #3e4147;
+  font-family: 'Arvo', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 600px) {
+  div {
+    width: 500px;
+    background-color: aqua;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 800px) {
+  div {
+    width: 700px;
+    background-color: palegreen;
+  }
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
